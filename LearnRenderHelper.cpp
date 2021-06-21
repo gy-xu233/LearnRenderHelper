@@ -150,5 +150,25 @@ int main()
 	vv3=vv2-vv1;
 	std::cout<<vv3<<std::endl;
 	std::cout<<"0,1??"<<(v3==(v1-v2))<<","<<(vv3==(vv2+vv1))<<std::endl;
+	std::cout<<"1,0??"<<(v3!=(v1-v2))<<","<<(vv3!=(vv2+vv1))<<std::endl;
+	u3=-u2;
+	u4=+u2;
+	std::cout<<u3<<"=(-)"<<u2<<std::endl;
+    std::cout<<u4<<"=(+)"<<u2<<std::endl;
+	uu4=uu3*uu2;
+	uu1=uu3/uu2;
+	std::cout<<uu4<<"="<<uu3<<"*"<<uu2<<std::endl;
+    std::cout<<uu1<<"="<<uu3<<"/"<<uu2<<std::endl;
+    v3+=v2;
+	vv3-=vv2;
+	std::cout<<v3<<"=2*"<<v2<<std::endl;
+	std::cout<<vv3<<"=0"<<std::endl;
+	std::cout<<u2<<u3<<u4<<u5<<"int 乘,除2"<<std::endl;
+    u2=u2*2;
+	u3=2*u3;
+	u4=u4/2;
+    u1=u5/2;
+	std::cout<<u2<<u3<<u4<<u1<<std::endl;
+	system("pause");
 	return 0;
 }
