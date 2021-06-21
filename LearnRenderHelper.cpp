@@ -1,17 +1,4 @@
-#include <stddef.h>
-#include <stdint.h>
-#include <string.h>
-#include <math.h>
-#include <assert.h>
 
-#include <vector>
-#include <map>
-#include <initializer_list>
-#include <stdexcept>
-#include <functional>
-#include <ostream>
-#include <sstream>
-#include <iostream>
 //#include "uoin.h"
 #include "RenderHelp.h"
 int main()
